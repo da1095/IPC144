@@ -1,0 +1,12 @@
+Wrokshop 3 Refelct 
+
+Devang Ramubhai Ahir Ahir
+
+1. I personally stored the first three letters of the month as  string in month variable. For example for January JAN I used month = "JAN"; where i use JAN as string not character. SO when i wanted to print that string, I used printf("%s". month); . The other way is to use characters or char but beacuse I already declared the month variable to integer i couldn't change it to char and it was showing me an error. Fortunately I knew how to use strings so i used strings in place of characters. "" is a must to store the string in the variable. 
+
+2. FOR, WHILE, DO-WHILE are the validation routine. I used DO-WHILE for the p1 of this workshop where i needed my program to ask me a year and a month until it was acceptable. DO-WHILE is perfect when you want your program to keep asking the user for an input until its correct. I used the DO-WHILE for the p2 as well where i asked the user to put a rating. I used DO-WHILE for the same reason as p1. Apart from these, I used the FOR loop for p2 as well. I used FOR loop so that the day in the date changes till we were told and not to write the DO-While loop for like 3 different types.
+
+3. For the p1 I used the debug in the DO-WHILE loop where the program ask the use to input the Year and Month. My program was not working as I expected. During the output it was asking the year and month but when the user put if the user put wrong month the program accepted it .  
+
+For the p2 I used the debug in the DO-WHILE where the program ask the user for morning and evening ratings. The output was not asking the use for ratings even when it was wrong. 
+
