@@ -1,0 +1,13 @@
+Reflect 
+
+Devang Ramubhai Ahir Ahir
+NBB
+153484209
+drahir-ahir@myseneca.ca
+
+1.Using the FOR loop was the key to store the value in  the dataset. This array are not pre-defined. Pre-defined means the array does not have any data in it. The user will input the data in the array. And we will use FOR loop to store that values put by the user in the arrays.
+
+2. The position of the data in the arrays starts from 0. If we have an array Array[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}.
+The position of 5 in the Array[10] is 4 because the the positioning starts for 0. Same goes for storing the values in the array.
+
+3. Lets say we have caryons. we will creat a group named green. This group is an array. We will name that array green[]. Now, as every group has a limit, same goes here. We will set a limit to our array. The limit will be 10. So the limit of the array is green[10]. Now we will store something in this arrau green[10]. let say we will put ten caryons wiht green shade in it. But the limit is 10 so we can only put 10 crayons in it no more than. There you have it. An array green[10] with 10 data in it. 
