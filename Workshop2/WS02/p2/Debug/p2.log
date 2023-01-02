@@ -1,0 +1,8 @@
+﻿  w2p2.c
+C:\Users\da_10\Desktop\Seneca College\Semester 1\IPC144NAZ or NBB\Workshop2\WS02\p2\w2p2.c(33,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\da_10\Desktop\Seneca College\Semester 1\IPC144NAZ or NBB\Workshop2\WS02\p2\w2p2.c(37,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\da_10\Desktop\Seneca College\Semester 1\IPC144NAZ or NBB\Workshop2\WS02\p2\w2p2.c(41,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\da_10\Desktop\Seneca College\Semester 1\IPC144NAZ or NBB\Workshop2\WS02\p2\w2p2.c(45,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\da_10\Desktop\Seneca College\Semester 1\IPC144NAZ or NBB\Workshop2\WS02\p2\w2p2.c(49,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\da_10\Desktop\Seneca College\Semester 1\IPC144NAZ or NBB\Workshop2\WS02\p2\w2p2.c(53,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  p2.vcxproj -> C:\Users\da_10\Desktop\Seneca College\Semester 1\IPC144NAZ or NBB\Workshop2\WS02\p2\Debug\p2.exe

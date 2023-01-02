@@ -1,0 +1,21 @@
+Name :- Devang Ahir
+ID :- 153484209
+
+Workshop 2
+
+1. We ran the code as you provided in the workshop pdf. and after running it, the program showed 10.10000000.... for 10.10 and 10.199999999.. for 10.12. I changed the %.15lf to %.20lf in the printf statement and it showed the exact number at the end. So the program while running, it rounds ups the number thats why it was showing 10.1199.. for 10.12.
+
+
+2. %2 = 13630084  
+   %3 = 13630480
+   %10 = 5633892
+
+3. int estimatedsliceConsumed = 21 * 3;
+
+   int wholePizzaEaten = totalSlices / estimatedSlicesConsumed;
+   int extraSlicesNeeded = totalSlices / wholePizzasEaten;
+
+   printf("Value of %d", extraSlicesNeeded);
+
+
+4.  With the integer numbers, the arithmetic will result in a more suitable number. To make calculation with float numbers, it will give a whole number and it will make it more difficult to do an arethmetic operations.

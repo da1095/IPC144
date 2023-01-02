@@ -1,0 +1,3 @@
+﻿  w1p2.c
+w1p2.obj : error LNK2005: _main already defined in w1p1.obj
+C:\Users\da_10\Desktop\Seneca College\Semester 1\IPC144NAZ or NBB\Workshop1\Workshop1\Debug\Workshop1.exe : fatal error LNK1169: one or more multiply defined symbols found
