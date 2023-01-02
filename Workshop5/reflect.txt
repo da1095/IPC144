@@ -1,0 +1,19 @@
+Name   : Devang Ramubhai Ahir Ahir
+ID     : 153484209
+Email  : drahir-ahir@myseneca.ca
+Section: NBB
+
+1. The advantages and benefits of using structures, is an easier way to group variables, that represent one type of function withing the coding. It helps keep and order, of the thing when you are coding, and example could be the structures on this workshop, when we separate the variables according to what we were going to need them, int playersettings and gamesettings, and when we were coding, for the game, it was easier to find and to user each variable in the best way possible, for example for playersetting I named the structure user, so I can see that we were coding, what the user will be interacting with, could output, or the input. Example user.letters which in my case was the letter or symbol the user chose to use to play the game.
+        struct PlayerInfo
+        {
+	int lives;
+	char character;
+	int TreasureFound;
+	int history[PATHLENGHTS]; 
+	}
+
+
+2. We should have add another structure where we declared variables for old games and then create a function (code) to save or store the game results within the new variables, so when the game is open again, the user can see an output of his past scores under this variables.
+
+
+3. The second part, on how to store the values in the array, and I still do not know how to do that. But i did something. Next was how to know the position of bombs and treasure. I used for loop so that the program can can check the position of the bombs and treasure and to start with nothing I had to use another for loop for that.
