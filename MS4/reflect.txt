@@ -1,0 +1,18 @@
+Name:           Devang Ramubhai Ahir Ahir
+Student Number: 153484209
+Email:          drahir-ahir@myseneca.ca
+Section:        NBB
+
+
+1. Function findContactactIndex is programmed to find a contact from the contact array using the cell phone or mobile phone number. As this assignment wanted us to use the search option from the menu and it required this function, I wrote the code for the requirement we were asked. I declared a variable named pos which means the position of the cell phone or mobile number in the structure named Contact. After getting the cell phone or mobile number from the user in 5th option from the menu, I then set the condition using strcmp. Strcmp compares the string from the user and the strings in the cell phone array one by one. I use the for loop, so the program compares the whole cell phone array. If the strcmp returns 0, it means the program found the contact the user was searching for, otherwise it will say “no contact found”.
+
+The getTenDigitPhone function is for the user so that the user only uses 10-digit number and not character. This function will take the phone number entered by the user and will check it if it’s a 10-digit number or numbers with character. I used the isdigit function in the if condition to check if the number entered by the user is only numbers or numbers with character. If yes, then it will be accepted by the program, otherwise it will show an error message saying that enter a 10-digit number.
+
+These two functions benefit me by cross checking data entered by the user in the program. In one we are comparing the string entered by the user and the string already in the array. And the other checks if the user used numbers or numbers and characters. With function like this, I can add more options in the menu and make more 
+
+ 
+2. No
+
+Reason 1 is I just attend the class about files in C in my IPC class.  This is something new. I still don’t know how to use files in C. So, there is no option to add load and save option in the program yet. 
+
+Reason 2 is I need to practice files in C to make sure that this program runs. As this is something I just learnt from the lectures. I cannot think of other reasons.
