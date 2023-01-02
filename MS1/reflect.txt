@@ -1,0 +1,47 @@
+Name: Devang Ramubhai Ahir Ahir
+Student number: 153484209
+Email: drahir-ahir@myseneca.ca
+Section: NBB
+Date: 09-July-2021
+
+1. In one If condition where we ask the user if the user wants to enter the aparment number
+	If (yesNo == "y" || yesNo == "Y"){}
+	Well this a wrong way to write a character in if condition. The characters always goes in double quotation marks unless it is string. The correct way to write this is
+	If (yesNo == 'y' || yesNo == 'Y'){}
+
+   In other If condition when we ask the user if the user wants to enter home phone number
+	If (yesNo =='y' && yesNo == 'Y'){}
+	This is one way to write an If condition but it wont work in this program. That is because we want our program to accept both 'y' or 'Y' characters as an user-input. If we use && (and) then the program wont accept it as long as it complies with both condition. So if the user puts 'y', it wont accept it the condition and then the program wont show what is is suppose to show which is the question asking the contact number. And for that to work the user must input both 'y' and 'Y'. But if we change that && (and) to || (or) then it will work. Because this program only need 'y' or 'Y'. So the correct code will be
+	If (yesNo == 'y' || yesNo == 'Y'){}
+
+   In one scanf after asking the user if user wants middel initials 
+	scanf ("%s%*c", &yesNo);
+	After checking the the variable type for the variable yesNO is character variable type. So whenever we try to get an iput from the use as a character variabel, we use %c in the scanf. So the correct way to write thsi code is 
+	scanf()
+
+   In the header file the size of the array in the structure
+	struct Name {char middleInitial[5];};
+	I checked some of the arrays, not every arrays because I am lazy, and truth to be told the code was functional after I made some changes to this specific array name middleInitials. Turns out that the size of this array should be more than or equals to 7 not less than 7. Well as we are declaring the array middleInitals as an character and when asked to user, the user will only put the initials which is a single character. But this make the size of the array more than 5 so it wont work. So the correct way to write this is
+	struct Name {char middleInitial[7];};
+
+2. 
+
+3. I can create a fuction prototype for the repeated code which is the If condition where the programs check if it is Yes or No. I will name this fuction prototype in the header file as 
+	char getYesorNo(char* YESNO);
+and then I will use this funtion something like this in the source file 
+	char getYesorNo(char* YESNO)
+	{
+		char yesNo;
+		scanf("%c",&yesNo)
+		if (yesNo == 'y' || yesNo == 'Y')
+		{
+			printf("Your statement\n");
+		}
+		*YESNO = yesNo;
+		return yesNo; 
+	}
+Something like this. Now this is a just and assumption so I am not sure. But it is somehting.
+
+4. scanf(" %c", &variable) is one way to write the scan fucntion if the user is using character. In c programming sometimes you need s space afte the double quatation so that the program can accept the character so that the program can run. Now there is this other way to use this character scanning function. scanf("%*c", &variable) is ohter way to use the character scanning function. The * is the space which is ususally use after the double quatation. The * works as the space so it help the program to accept the character inputed by the user without any problem.
+
+5. Strings are basically a two or more characters together in general, but in programming the variable type for string is different and not character. In this program, the user is using two or more characters as an input for name, last name and postal code. So when we try to show the output, we will try to show the full name ofcourse and in order to that we use "%[^\n]". We cannot use %s because we are not using string variable types so %s wont work. 	
